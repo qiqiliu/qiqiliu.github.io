@@ -7,72 +7,31 @@
   <title>且听风雨</title>
   <link rel="shortcut icon" href="images/logo.jpg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <script type="text/javascript" src="javascripts/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="responsive-nav.js-master/responsive-nav.css">
-  <script src="responsive-nav.js-master/responsive-nav.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="indexCss/default.css" />
+  <link rel="stylesheet" type="text/css" href="indexCss/component.css" />
+  <script src="indexJs/modernizr.custom.js"></script>
 </head>
-<script>
-  var navigation = responsiveNav("#nav", { // Selector: The ID of the wrapper
-    animate: true, // Boolean: 是否启动CSS过渡效果（transitions）， true 或 false
-    transition: 400, // Integer: 过渡效果的执行速度，以毫秒（millisecond）为单位
-    label: "Menu", // String: Label for the navigation toggle
-    insert: "after", // String: Insert the toggle before or after the navigation
-    customToggle: "", // Selector: Specify the ID of a custom toggle
-    openPos: "relative", // String: Position of the opened nav, relative or static
-    jsClass: "js", // String: 'JS enabled' class which is added to <html> el
-    debug: false, // Boolean: Log debug messages to console, true 或 false
-    init: function(){}, // Function: Init callback
-    open: function(){}, // Function: Open callback
-    close: function(){} // Function: Close callback
-  });
-  navigation.toggle();
-</script>
 <body>
-<header class="header">
-  <div id="nav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-  <!--<div class="logo">-->
-    <!--<img src="images/logo.jpg">-->
-  <!--<div class="logo-name">我们的伐木累-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--<div class="header-nav">-->
-    <!--<ul>-->
-      <!--<li class="submit" onclick="sumbit()"><a>北京</a></li>-->
-      <!--<li><a href="#">银川</a></li>-->
-      <!--<li><a href="#">天涯</a></li>-->
-      <!--</ul>-->
-    <!--</div>-->
-  </header>
-<div class="content">
-  <div class="our-time">
-    <div class="time-p">风吹雨成花，时间追不上白马，希望有一天我可以追上你。
-      </div>
-  </div>
-  <div class="our-show">
-  <div class="video">
-    <img src="images/2938152_05.gif">
+  <div class="container">
+    <div class="os-phrases" id="os-phrases">
+      <h2>你要离开，我知道很简单</h2>
+      <h2>你说依赖是我们的阻碍</h2>
+      <h2>就算放开能不能别没收我的爱</h2>
+      <h2>当做我最后才明白</h2>
+      <h2>你的声音这么近我却抱不到</h2>
+      <h2>也许时间是一种解药</h2>
+      <h2>也是我现在正服下的毒药</h2>
+      <h2><a href="mypage.html">放开</a></h2>
     </div>
-    <div class="show-time">
-      <img src="images/2938152_05.gif">
-      <img src="images/2938152_05.gif">
-      <img src="images/2938152_05.gif">
-      </div>
-    </div>
-  </div>
-<footer>
-  <div class="footer-logo">
-    <img src="images/2938152_05.gif">
-    </div>
-  </footer>
+  </div><!-- /container -->
+  <script src="indexJs/jquery-2.1.1.min.js"></script>
+  <script src="indexJs/jquery.lettering.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
+    })
+  </script>
 </body>
 </html>
