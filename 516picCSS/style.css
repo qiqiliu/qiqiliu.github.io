@@ -4,8 +4,11 @@
     margin: 0 auto;
     -webkit-perspective: 1200px;
     perspective: 1200px;
-    position: relative;
-    top: 250px;
+    position: absolute;
+    top: 50%;
+    margin-top: -255px;
+    left: 50%;
+    margin-left: -600px;
     width: 1200px;
 }
 
