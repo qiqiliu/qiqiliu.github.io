@@ -64,6 +64,7 @@
 	-webkit-animation: OpeningSequence 5.2s linear forwards;
 	-moz-animation: OpeningSequence 5.2s linear forwards;
 	animation: OpeningSequence 5.2s linear forwards;
+	font-family: STXingkai;
 }
 
 .os-phrases h2:nth-child(2) > span > span > span {
