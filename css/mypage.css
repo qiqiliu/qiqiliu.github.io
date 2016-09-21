@@ -186,6 +186,10 @@ a {
   border-radius: 8px;
   margin-left: 20px;
 }
+.p516:hover{
+  top: -3px;
+  margin-left: 17px;
+}
 .content-picture {
   width: 100%;
   height: 1000px;
@@ -202,6 +206,9 @@ a {
   border-radius: 8px;
   cursor: pointer;
 }
+/*.photos:hover {
+  margin-top: 47px;
+}*/
 .photos:hover .photosInfo {
   display: block;
 }
@@ -226,13 +233,14 @@ a {
 }
 .footer {
   width: 100%;
-  height: 80px;
+  height: 150px;
   position: relative;
   background-color: black;
+  margin-top: 100px;
 }
 .footer p {
   text-align: center;
-  line-height: 80px;
+  line-height: 150px;
   color: white;
   font-size: 24px;
 }

@@ -20,11 +20,11 @@ $(document).ready(function () {
         $(this).siblings().removeAttr("class");
     });
     t = setInterval("showAuto()", 3000);
-    $("#banner").hover(function () {
-        clearInterval(t)
-    }, function () {
-        t = setInterval("showAuto()", 3000);
-    });
+    // $("#banner").hover(function () {
+    //     clearInterval(t)
+    // }, function () {
+    //     t = setInterval("showAuto()", 3000);
+    // });
 
 
     $("#gotop1").click(function(e) {
