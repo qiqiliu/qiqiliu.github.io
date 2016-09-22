@@ -147,6 +147,7 @@
 .lb-data {
   padding: 0 10px;
   color: #bbbbbb;
+  margin-top: 30px;
 }
 /* line 98, ../sass/lightbox.sass */
 .lb-data .lb-details {
@@ -154,6 +155,7 @@
   float: left;
   text-align: left;
   line-height: 1.1em;
+  display: none;
 }
 /* line 103, ../sass/lightbox.sass */
 .lb-data .lb-caption {
