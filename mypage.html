@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/logo1.png">
+    <title>主页</title>
+    <link rel="stylesheet" type="text/css" href="css/mypage.css">
+    <link rel="stylesheet" href="css/effect-1.css">
+</head>
+<body>
+  <div id="banner">
+      <ul>
+          <li class="on">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+      </ul>
+      <div id="banner_list">
+          <a target="_blank"><img src="images/banner3.jpg" title="" alt=""/></a>
+          <a target="_blank"><img src="images/banner2.png" title="" alt=""/></a>
+          <a target="_blank"><img src="images/banner1.png" title="" alt=""/></a>
+          <a target="_blank"><img src="images/banner4.png" title="" alt=""/></a>
+      </div>
+  </div>
+
+
+
+
+  <div class="content">
+    <div class="content-video">
+      <iframe height=500 width=700 src='http://player.youku.com/embed/XMTczODQ2NzM3Ng==' frameborder=0 'allowfullscreen'></iframe>
+      <!-- <embed src='https://player.youku.com/player.php/sid/XMTczODQ2NzM3Ng==/v.swf' allowFullScreen='true' quality='high' width='700' height='500' border-radius='8px' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed> -->
+      <div class="content-people">
+        <a href="516pic.html"><div class="p516">
+          <div data-offset="5" class="poster1">
+          		  <div class="shine"></div>
+          		  <div class="layer-1"></div>
+          		  <div data-offset="-5" class="layer-2"></div>
+          		  <div data-offset="-10" class="layer-3"></div>
+          		  <div data-offset="-10" class="layer-4"></div>
+          		  <div data-offset="-5" class="layer-5"></div>
+          		</div>
+            </div></a>
+        <a href="545pic.html"><div class="p516">
+          <div data-offset="5" class="poster1">
+          		  <div class="shine"></div>
+          		  <div class="layer-6"></div>
+          		  <div data-offset="-5" class="layer-7"></div>
+          		  <div data-offset="-10" class="layer-8"></div>
+          		  <div data-offset="-10" class="layer-9"></div>
+          		  <div data-offset="-5" class="layer-10"></div>
+          		</div>
+            </div></a>
+      </div>
+    </div>
+    <div class="content-picture">
+      <a href="first.html">
+        <div class="photos" style="margin-left:0px;background-image:url(images/back1.JPG);">
+          <div class="photosInfo">
+            <p>刘雨奇</p>
+          </div>
+        </div>
+      </a>
+      <a href="second.html">
+        <div class="photos" style="background-image:url(images/back2.JPG);">
+          <div class="photosInfo">
+            <p>一一一一</p>
+          </div>
+        </div>
+      </a>
+      <a href="third.html">
+      <div class="photos" style="background-image:url(images/back3.JPG);">
+        <div class="photosInfo">
+          <p>二二二二</p>
+        </div>
+      </div>
+      </a>
+      <a href="fourth.html">
+      <div class="photos" style="margin-left:0px;background-image:url(images/back4.JPG);">
+        <div class="photosInfo">
+          <p>三三三</p>
+        </div>
+      </div>
+    </a>
+      <div class="photos" style="background-image:url(images/back5.JPG);">
+        <div class="photosInfo">
+          <p>四四四</p>
+        </div>
+      </div>
+      <div class="photos" style="background-image:url(images/back6.JPG);">
+        <div class="photosInfo">
+          <p>五五五</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 右侧小火箭图标返回顶部 -->
+			<div id="shangxia2">
+				<span id="gotop1">
+					<img src="images/huojian.svg" alt="返回顶部小火箭">
+					<!-- <img src="img/rocked.png" alt="返回顶部小火箭"> -->
+				</span>
+			</div>
+<!-- 底部文字返回顶部 -->
+<footer class="footer">
+    <p>良心之作</p>
+</footer>
+<script src="indexJs/jquery-2.1.1.min.js"></script>
+<script src="js/quietflow.min.js"></script>
+<script>
+// 主页星星背景
+   $("body").quietflow({
+    // theme : "starfield",
+    // z_Index : -1
+    theme : "bouncingBalls",
+	   specificColors : ["rgba(255,10,50,.5)","rgba(10,255,50,.5)",
+				"rgba(10,50,255,.5)",
+				"rgba(0,0,0,.5)"]
+   })
+</script>
+<script src="js/mypage.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/ScrollToPlugin.min.js"></script>
+<!-- 左右板块 -->
+<script src="js/effect-1.js"></script>
+</body>
+</html>
